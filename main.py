@@ -11,7 +11,7 @@
                 continue
             anime_title = anime.find("a")
             if anime_title is None or isinstance(anime_title, NavigableString):
-                continue
+                continue#anime
 
             anime_list.append({"title": anime_title["title"], "url": anime_url["href"]})
 
