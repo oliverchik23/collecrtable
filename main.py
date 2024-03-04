@@ -1,6 +1,6 @@
    if anime_ul is None or isinstance(anime_ul, NavigableString):
         msg = f"Could not find and anime with name {anime_name}"
-        raise ValueError(msg)
+        raise ValueError(msg)#good
     anime_li = anime_ul.children]
 
     anime_list = []
